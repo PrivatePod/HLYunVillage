@@ -1,0 +1,66 @@
+PODS:
+  - CTMediator (25)
+  - CYLTabBarController (1.28.3):
+    - CYLTabBarController/Core (= 1.28.3)
+  - CYLTabBarController/Core (1.28.3)
+  - HLClassificationModule (0.1.0):
+    - HLCTMediator
+  - HLCoreLibrary (0.1.0)
+  - HLCTMediator (0.1.0):
+    - CTMediator
+  - HLMarketModule (0.1.0):
+    - HLCTMediator
+  - HLMomentsModule (0.1.0):
+    - HLCTMediator
+  - HLNewsModule (0.1.0):
+    - CTMediator
+    - HLCTMediator
+  - HLProfileUI (0.1.0):
+    - HLCTMediator
+
+DEPENDENCIES:
+  - CTMediator
+  - CYLTabBarController (~> 1.28.3)
+  - HLClassificationModule (from `../HLClassificationModule`)
+  - HLCoreLibrary (from `../HLCoreLibrary`)
+  - HLCTMediator (from `../HLCTMediator`)
+  - HLMarketModule (from `../HLMarketModule`)
+  - HLMomentsModule (from `../HLMomentsModule`)
+  - HLNewsModule (from `../HLNewsModule`)
+  - HLProfileUI (from `../HLProfileUI`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CTMediator
+    - CYLTabBarController
+
+EXTERNAL SOURCES:
+  HLClassificationModule:
+    :path: "../HLClassificationModule"
+  HLCoreLibrary:
+    :path: "../HLCoreLibrary"
+  HLCTMediator:
+    :path: "../HLCTMediator"
+  HLMarketModule:
+    :path: "../HLMarketModule"
+  HLMomentsModule:
+    :path: "../HLMomentsModule"
+  HLNewsModule:
+    :path: "../HLNewsModule"
+  HLProfileUI:
+    :path: "../HLProfileUI"
+
+SPEC CHECKSUMS:
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  CYLTabBarController: cd14c6260a38337600737873a57b3114c7065a8e
+  HLClassificationModule: 0ab4650f189200fe781bc6fdccd3ecfacba0ad49
+  HLCoreLibrary: cf11033c90fe8f36b064a167f1af210f707b9389
+  HLCTMediator: f08dc49f5e9cd4b894ffe22fd3e39e430fcda9ef
+  HLMarketModule: d1964d88c4d788c4c49326952d376a6640a6d69c
+  HLMomentsModule: e465d0b22497c04fb584b490889d2588df9818fe
+  HLNewsModule: 7bc1dc8552acabd7a9aaee8ca85eace30e6876dd
+  HLProfileUI: c857f24122b1d93ae9ec10a5752ecf21a727d5d2
+
+PODFILE CHECKSUM: d51a2ebab35ba89701930aa802866802592143e0
+
+COCOAPODS: 1.7.2

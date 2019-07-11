@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		204D6405991B0CA73DAB7725 /* Pods_HLYunVillage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB32A322CC6F9B0870B9449 /* Pods_HLYunVillage.framework */; };
 		5C78E01722D5BED600915C25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C78E01622D5BED600915C25 /* AppDelegate.swift */; };
 		5C78E01922D5BED600915C25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C78E01822D5BED600915C25 /* ViewController.swift */; };
 		5C78E01C22D5BED600915C25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C78E01A22D5BED600915C25 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		5C78E02122D5BED800915C25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C78E01F22D5BED800915C25 /* LaunchScreen.storyboard */; };
 		5C78E02C22D5BED800915C25 /* HLYunVillageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C78E02B22D5BED800915C25 /* HLYunVillageTests.swift */; };
 		5C78E03722D5BED800915C25 /* HLYunVillageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C78E03622D5BED800915C25 /* HLYunVillageUITests.swift */; };
+		5C78E06022D5F0CC00915C25 /* HLMainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C78E05F22D5F0CC00915C25 /* HLMainTabViewController.swift */; };
+		5C78E06222D5F20000915C25 /* HLAppDelegate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C78E06122D5F20000915C25 /* HLAppDelegate+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34ED342BAC33B699338FFD2E /* Pods-HLYunVillage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLYunVillage.debug.xcconfig"; path = "Target Support Files/Pods-HLYunVillage/Pods-HLYunVillage.debug.xcconfig"; sourceTree = "<group>"; };
+		3DB32A322CC6F9B0870B9449 /* Pods_HLYunVillage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLYunVillage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C78E01322D5BED600915C25 /* HLYunVillage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLYunVillage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C78E01622D5BED600915C25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C78E01822D5BED600915C25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,9 @@
 		5C78E03222D5BED800915C25 /* HLYunVillageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLYunVillageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C78E03622D5BED800915C25 /* HLYunVillageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLYunVillageUITests.swift; sourceTree = "<group>"; };
 		5C78E03822D5BED800915C25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C78E05F22D5F0CC00915C25 /* HLMainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLMainTabViewController.swift; sourceTree = "<group>"; };
+		5C78E06122D5F20000915C25 /* HLAppDelegate+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HLAppDelegate+Extension.swift"; sourceTree = "<group>"; };
+		D1E32813AA1DB34494CCEA4E /* Pods-HLYunVillage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLYunVillage.release.xcconfig"; path = "Target Support Files/Pods-HLYunVillage/Pods-HLYunVillage.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				204D6405991B0CA73DAB7725 /* Pods_HLYunVillage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +90,8 @@
 				5C78E02A22D5BED800915C25 /* HLYunVillageTests */,
 				5C78E03522D5BED800915C25 /* HLYunVillageUITests */,
 				5C78E01422D5BED600915C25 /* Products */,
+				A8967E261674743403AB3C57 /* Pods */,
+				C40682166A8F153A5D032584 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				5C78E01622D5BED600915C25 /* AppDelegate.swift */,
+				5C78E05F22D5F0CC00915C25 /* HLMainTabViewController.swift */,
+				5C78E06122D5F20000915C25 /* HLAppDelegate+Extension.swift */,
 				5C78E01822D5BED600915C25 /* ViewController.swift */,
 				5C78E01A22D5BED600915C25 /* Main.storyboard */,
 				5C78E01D22D5BED800915C25 /* Assets.xcassets */,
@@ -125,6 +138,23 @@
 			path = HLYunVillageUITests;
 			sourceTree = "<group>";
 		};
+		A8967E261674743403AB3C57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34ED342BAC33B699338FFD2E /* Pods-HLYunVillage.debug.xcconfig */,
+				D1E32813AA1DB34494CCEA4E /* Pods-HLYunVillage.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C40682166A8F153A5D032584 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DB32A322CC6F9B0870B9449 /* Pods_HLYunVillage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C78E03B22D5BED800915C25 /* Build configuration list for PBXNativeTarget "HLYunVillage" */;
 			buildPhases = (
+				DD3DD0CEAE247E29D0C2A3E9 /* [CP] Check Pods Manifest.lock */,
 				5C78E00F22D5BED600915C25 /* Sources */,
 				5C78E01022D5BED600915C25 /* Frameworks */,
 				5C78E01122D5BED600915C25 /* Resources */,
+				DCB9895B9DC5A299AA3B34A8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,13 +283,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DCB9895B9DC5A299AA3B34A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HLYunVillage/Pods-HLYunVillage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HLYunVillage/Pods-HLYunVillage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HLYunVillage/Pods-HLYunVillage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD3DD0CEAE247E29D0C2A3E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HLYunVillage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5C78E00F22D5BED600915C25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C78E06222D5F20000915C25 /* HLAppDelegate+Extension.swift in Sources */,
 				5C78E01922D5BED600915C25 /* ViewController.swift in Sources */,
 				5C78E01722D5BED600915C25 /* AppDelegate.swift in Sources */,
+				5C78E06022D5F0CC00915C25 /* HLMainTabViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,10 +506,13 @@
 		};
 		5C78E03C22D5BED800915C25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34ED342BAC33B699338FFD2E /* Pods-HLYunVillage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJF46GBGJQ;
 				INFOPLIST_FILE = HLYunVillage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,10 +526,13 @@
 		};
 		5C78E03D22D5BED800915C25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1E32813AA1DB34494CCEA4E /* Pods-HLYunVillage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJF46GBGJQ;
 				INFOPLIST_FILE = HLYunVillage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
