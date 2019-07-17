@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.rootViewController = rootViewController
         
         self.window?.makeKeyAndVisible()
-        
+        UITableView
         UITabBar.appearance().backgroundColor = UIColor.white
         return true
     }

@@ -46,24 +46,24 @@ extension AppDelegate {
     func tabBarItemsAttributesForController() ->  [[String : String]] {
         
         let tabBarItemOne = [CYLTabBarItemTitle:"资讯",
-                             CYLTabBarItemImage:"home_normal",
-                             CYLTabBarItemSelectedImage:"home_highlight"]
+                             CYLTabBarItemImage:"news_normal",
+                             CYLTabBarItemSelectedImage:"news_highlight"]
         
         let tabBarItemTwo = [CYLTabBarItemTitle:"朋友圈",
-                             CYLTabBarItemImage:"mycity_normal",
-                             CYLTabBarItemSelectedImage:"mycity_highlight"]
+                             CYLTabBarItemImage:"moment_normal",
+                             CYLTabBarItemSelectedImage:"moment_highlight"]
         
         let tabBarItemThree = [CYLTabBarItemTitle:"分类",
-                               CYLTabBarItemImage:"message_normal",
-                               CYLTabBarItemSelectedImage:"message_highlight"]
+                               CYLTabBarItemImage:"found_normal",
+                               CYLTabBarItemSelectedImage:"found_highlight"]
         
         let tabBarItemFour = [CYLTabBarItemTitle:"商城",
-                              CYLTabBarItemImage:"account_normal",
-                              CYLTabBarItemSelectedImage:"account_highlight"]
+                              CYLTabBarItemImage:"market_normal",
+                              CYLTabBarItemSelectedImage:"market_highlight"]
         
         let tabBarItemFive = [CYLTabBarItemTitle:"我的",
-                              CYLTabBarItemImage:"account_normal",
-                              CYLTabBarItemSelectedImage:"account_highlight"]
+                              CYLTabBarItemImage:"mine_normal",
+                              CYLTabBarItemSelectedImage:"mine_highlight"]
         let tabBarItemsAttributes = [tabBarItemOne,tabBarItemTwo,tabBarItemThree,tabBarItemFour,tabBarItemFive]
         return tabBarItemsAttributes
     }
