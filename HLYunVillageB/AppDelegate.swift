@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  HLYunVillage
+//  HLYunVillageB
 //
-//  Created by HaviLee on 2019/7/10.
+//  Created by HaviLee on 2019/7/18.
 //  Copyright © 2019 HaviLee. All rights reserved.
 //
 
@@ -13,18 +13,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        //initial third platform
-        setupThirdPlatform()
-        //initial rootVC
-        let rootViewController = HLMainTabViewController(viewControllers: self.viewControllers(), tabBarItemsAttributes: self.tabBarItemsAttributesForController())
-        self.window = UIWindow()
-        self.window?.frame  = UIScreen.main.bounds
-        self.window?.rootViewController = rootViewController
-        
-        self.window?.makeKeyAndVisible()
-        UITabBar.appearance().backgroundColor = UIColor.white
         return true
     }
 

@@ -10,6 +10,7 @@ import Foundation
 import CYLTabBarController
 import CTMediator
 import HLCTMediator
+import WeexSDK
 
 extension AppDelegate {
     
@@ -66,5 +67,17 @@ extension AppDelegate {
                               CYLTabBarItemSelectedImage:"mine_highlight"]
         let tabBarItemsAttributes = [tabBarItemOne,tabBarItemTwo,tabBarItemThree,tabBarItemFour,tabBarItemFive]
         return tabBarItemsAttributes
+    }
+}
+
+extension AppDelegate {
+    
+    func setupThirdPlatform() {
+        WXAppConfiguration.setAppName("YunVillage")
+        WXAppConfiguration.setAppGroup("China")
+        WXAppConfiguration.setAppVersion("1.0.0")
+        //
+        WXSDKEngine.initSDKEnvironment()
+        WXLog.setLogLevel(.WXLogLevelAll)
     }
 }

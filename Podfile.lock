@@ -17,6 +17,21 @@ PODS:
     - HLCTMediator
   - HLProfileUI (0.1.0):
     - HLCTMediator
+    - SnapKit
+    - WeexSDK
+  - SnapKit (4.2.0)
+  - WeexSDK (0.24.0)
+  - ZIKRouter/ServiceRouter (1.0.12)
+  - ZIKRouter/ViewRouter (1.0.12):
+    - ZIKRouter/ServiceRouter
+  - ZRouter (1.0.12):
+    - ZRouter/ServiceRouter (= 1.0.12)
+    - ZRouter/ViewRouter (= 1.0.12)
+  - ZRouter/ServiceRouter (1.0.12):
+    - ZIKRouter/ServiceRouter (>= 1.0.12)
+  - ZRouter/ViewRouter (1.0.12):
+    - ZIKRouter/ViewRouter (>= 1.0.12)
+    - ZRouter/ServiceRouter
 
 DEPENDENCIES:
   - CTMediator
@@ -28,11 +43,18 @@ DEPENDENCIES:
   - HLMomentsModule (from `../HLMomentsModule`)
   - HLNewsModule (from `../HLNewsModule`)
   - HLProfileUI (from `../HLProfileUI`)
+  - SnapKit (~> 4.2.0)
+  - WeexSDK (~> 0.24.0)
+  - ZRouter (~> 1.0.12)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - CTMediator
     - CYLTabBarController
+    - SnapKit
+    - WeexSDK
+    - ZIKRouter
+    - ZRouter
 
 EXTERNAL SOURCES:
   HLClassificationModule:
@@ -59,8 +81,12 @@ SPEC CHECKSUMS:
   HLMarketModule: d1964d88c4d788c4c49326952d376a6640a6d69c
   HLMomentsModule: e465d0b22497c04fb584b490889d2588df9818fe
   HLNewsModule: 7bc1dc8552acabd7a9aaee8ca85eace30e6876dd
-  HLProfileUI: c857f24122b1d93ae9ec10a5752ecf21a727d5d2
+  HLProfileUI: 0e7b4ff75b94960d07f2a0c976912cdd4150319b
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  WeexSDK: 5bd35be9c035c67c84d1ba15712360bb0d0ba6b5
+  ZIKRouter: 8802d95cb52e7fb35d739312102450cfd8e45863
+  ZRouter: 7932478204a18d3de18cc928225e272db5dfaa74
 
-PODFILE CHECKSUM: d51a2ebab35ba89701930aa802866802592143e0
+PODFILE CHECKSUM: bb3a22299f2f3c69e8af9383bd0176ec65b91e37
 
 COCOAPODS: 1.7.2

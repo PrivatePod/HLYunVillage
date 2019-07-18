@@ -9,38 +9,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HLYunVillage/HLAppDelegate+Extension.swift"
-            timestampString = "584536621.5400389"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "viewControllers()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../HLCTMediator/HLCTMediator/Classes/HLCTMediator+NewsExtension.swift"
-            timestampString = "584519114.144545"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "informationRootViewController(callback:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "../HLNewsModule/HLNewsModule/Classes/CTMediatorTarget/Target_News.swift"
             timestampString = "584516733.956033"
             startingColumnNumber = "9223372036854775807"
@@ -57,13 +25,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Pods/CTMediator/CTMediator/CTMediator/CTMediator.m"
-            timestampString = "584516276.859207"
+            filePath = "../HLProfileUI/HLProfileUI/Classes/ViewControllers/HLRootProfileUIViewController.swift"
+            timestampString = "585128518.243881"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73"
-            landmarkName = "-performTarget:action:params:shouldCacheTarget:"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "weexView()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -73,61 +41,45 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HLYunVillage/HLAppDelegate+Extension.swift"
-            timestampString = "584536621.540365"
+            filePath = "../HLProfileUI/HLProfileUI/Classes/ViewControllers/HLRootProfileUIViewController.swift"
+            timestampString = "585128518.244059"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "weexView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../HLProfileUI/HLProfileUI/Classes/Target_ProfileUI.swift"
+            timestampString = "585128518.2441519"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "Action_root_view_controller(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../HLProfileUI/HLProfileUI/Classes/ViewControllers/HLRootProfileUIViewController.swift"
+            timestampString = "585128518.24423"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "17"
             endingLineNumber = "17"
-            landmarkName = "viewControllers()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "HLYunVillage.AppDelegate.viewControllers() -&gt; Swift.Array&lt;__C.UINavigationController&gt;"
-                  moduleName = "HLYunVillage"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lixu/Documents/Architecture/HLYunVillage/HLYunVillage/HLAppDelegate+Extension.swift"
-                  timestampString = "584516240.691537"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
-                  offsetFromSymbolStart = "33">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.String) -&gt; () in HLYunVillage.AppDelegate.viewControllers() -&gt; Swift.Array&lt;__C.UINavigationController&gt;"
-                  moduleName = "HLYunVillage"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lixu/Documents/Architecture/HLYunVillage/HLYunVillage/HLAppDelegate+Extension.swift"
-                  timestampString = "584516240.696569"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "12">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../HLCTMediator/HLCTMediator/Classes/HLCTMediator+NewsExtension.swift"
-            timestampString = "584519114.14526"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "13"
-            endingLineNumber = "13"
-            landmarkName = "informationRootViewController(callback:)"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

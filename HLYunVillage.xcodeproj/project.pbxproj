@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		204D6405991B0CA73DAB7725 /* Pods_HLYunVillage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB32A322CC6F9B0870B9449 /* Pods_HLYunVillage.framework */; };
 		5C78E01722D5BED600915C25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C78E01622D5BED600915C25 /* AppDelegate.swift */; };
 		5C78E01922D5BED600915C25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C78E01822D5BED600915C25 /* ViewController.swift */; };
 		5C78E01C22D5BED600915C25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C78E01A22D5BED600915C25 /* Main.storyboard */; };
@@ -17,6 +16,14 @@
 		5C78E03722D5BED800915C25 /* HLYunVillageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C78E03622D5BED800915C25 /* HLYunVillageUITests.swift */; };
 		5C78E06022D5F0CC00915C25 /* HLMainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C78E05F22D5F0CC00915C25 /* HLMainTabViewController.swift */; };
 		5C78E06222D5F20000915C25 /* HLAppDelegate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C78E06122D5F20000915C25 /* HLAppDelegate+Extension.swift */; };
+		5C86D50522DFFFC400BE5EAC /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 5C86D50422DFFFC300BE5EAC /* index.js */; };
+		5C86D55322E0577200BE5EAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C86D55222E0577200BE5EAC /* AppDelegate.swift */; };
+		5C86D55522E0577200BE5EAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C86D55422E0577200BE5EAC /* ViewController.swift */; };
+		5C86D55822E0577200BE5EAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C86D55622E0577200BE5EAC /* Main.storyboard */; };
+		5C86D55D22E0577300BE5EAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C86D55B22E0577300BE5EAC /* LaunchScreen.storyboard */; };
+		5C86D56322E059D500BE5EAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C86D56222E059D500BE5EAC /* Assets.xcassets */; };
+		9C6CBC75DA5A27707031ACDE /* Pods_CommonSpecTarget_HLYunVillageB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452D95039101D6EC6090CF12 /* Pods_CommonSpecTarget_HLYunVillageB.framework */; };
+		E99C80B1E909CCF247C5F006 /* Pods_CommonSpecTarget_HLYunVillage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D799BA85F375FE202D4513 /* Pods_CommonSpecTarget_HLYunVillage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +45,7 @@
 
 /* Begin PBXFileReference section */
 		34ED342BAC33B699338FFD2E /* Pods-HLYunVillage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLYunVillage.debug.xcconfig"; path = "Target Support Files/Pods-HLYunVillage/Pods-HLYunVillage.debug.xcconfig"; sourceTree = "<group>"; };
-		3DB32A322CC6F9B0870B9449 /* Pods_HLYunVillage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLYunVillage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		452D95039101D6EC6090CF12 /* Pods_CommonSpecTarget_HLYunVillageB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonSpecTarget_HLYunVillageB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C78E01322D5BED600915C25 /* HLYunVillage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLYunVillage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C78E01622D5BED600915C25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C78E01822D5BED600915C25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +61,19 @@
 		5C78E03822D5BED800915C25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C78E05F22D5F0CC00915C25 /* HLMainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLMainTabViewController.swift; sourceTree = "<group>"; };
 		5C78E06122D5F20000915C25 /* HLAppDelegate+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HLAppDelegate+Extension.swift"; sourceTree = "<group>"; };
+		5C86D50422DFFFC300BE5EAC /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		5C86D55022E0577200BE5EAC /* HLYunVillageB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLYunVillageB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C86D55222E0577200BE5EAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C86D55422E0577200BE5EAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C86D55722E0577200BE5EAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C86D55C22E0577300BE5EAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C86D55E22E0577300BE5EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C86D56222E059D500BE5EAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CFE7630AE23FC12CA2E5D95 /* Pods-CommonSpecTarget-HLYunVillage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonSpecTarget-HLYunVillage.release.xcconfig"; path = "Target Support Files/Pods-CommonSpecTarget-HLYunVillage/Pods-CommonSpecTarget-HLYunVillage.release.xcconfig"; sourceTree = "<group>"; };
+		63A654780849C0751BDE4145 /* Pods-CommonSpecTarget-HLYunVillageB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonSpecTarget-HLYunVillageB.release.xcconfig"; path = "Target Support Files/Pods-CommonSpecTarget-HLYunVillageB/Pods-CommonSpecTarget-HLYunVillageB.release.xcconfig"; sourceTree = "<group>"; };
+		70004D52F2FB428C8CC5C51A /* Pods-CommonSpecTarget-HLYunVillage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonSpecTarget-HLYunVillage.debug.xcconfig"; path = "Target Support Files/Pods-CommonSpecTarget-HLYunVillage/Pods-CommonSpecTarget-HLYunVillage.debug.xcconfig"; sourceTree = "<group>"; };
+		7490708CB0CF47032FCFF0E9 /* Pods-CommonSpecTarget-HLYunVillageB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonSpecTarget-HLYunVillageB.debug.xcconfig"; path = "Target Support Files/Pods-CommonSpecTarget-HLYunVillageB/Pods-CommonSpecTarget-HLYunVillageB.debug.xcconfig"; sourceTree = "<group>"; };
+		81D799BA85F375FE202D4513 /* Pods_CommonSpecTarget_HLYunVillage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonSpecTarget_HLYunVillage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E32813AA1DB34494CCEA4E /* Pods-HLYunVillage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLYunVillage.release.xcconfig"; path = "Target Support Files/Pods-HLYunVillage/Pods-HLYunVillage.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				204D6405991B0CA73DAB7725 /* Pods_HLYunVillage.framework in Frameworks */,
+				E99C80B1E909CCF247C5F006 /* Pods_CommonSpecTarget_HLYunVillage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +100,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5C86D54D22E0577200BE5EAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C6CBC75DA5A27707031ACDE /* Pods_CommonSpecTarget_HLYunVillageB.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -89,6 +117,7 @@
 				5C78E01522D5BED600915C25 /* HLYunVillage */,
 				5C78E02A22D5BED800915C25 /* HLYunVillageTests */,
 				5C78E03522D5BED800915C25 /* HLYunVillageUITests */,
+				5C86D55122E0577200BE5EAC /* HLYunVillageB */,
 				5C78E01422D5BED600915C25 /* Products */,
 				A8967E261674743403AB3C57 /* Pods */,
 				C40682166A8F153A5D032584 /* Frameworks */,
@@ -101,6 +130,7 @@
 				5C78E01322D5BED600915C25 /* HLYunVillage.app */,
 				5C78E02722D5BED800915C25 /* HLYunVillageTests.xctest */,
 				5C78E03222D5BED800915C25 /* HLYunVillageUITests.xctest */,
+				5C86D55022E0577200BE5EAC /* HLYunVillageB.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,6 +138,7 @@
 		5C78E01522D5BED600915C25 /* HLYunVillage */ = {
 			isa = PBXGroup;
 			children = (
+				5C86D50322DF259000BE5EAC /* resources */,
 				5C78E01622D5BED600915C25 /* AppDelegate.swift */,
 				5C78E05F22D5F0CC00915C25 /* HLMainTabViewController.swift */,
 				5C78E06122D5F20000915C25 /* HLAppDelegate+Extension.swift */,
@@ -138,11 +169,36 @@
 			path = HLYunVillageUITests;
 			sourceTree = "<group>";
 		};
+		5C86D50322DF259000BE5EAC /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				5C86D50422DFFFC300BE5EAC /* index.js */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		5C86D55122E0577200BE5EAC /* HLYunVillageB */ = {
+			isa = PBXGroup;
+			children = (
+				5C86D56222E059D500BE5EAC /* Assets.xcassets */,
+				5C86D55222E0577200BE5EAC /* AppDelegate.swift */,
+				5C86D55422E0577200BE5EAC /* ViewController.swift */,
+				5C86D55622E0577200BE5EAC /* Main.storyboard */,
+				5C86D55B22E0577300BE5EAC /* LaunchScreen.storyboard */,
+				5C86D55E22E0577300BE5EAC /* Info.plist */,
+			);
+			path = HLYunVillageB;
+			sourceTree = "<group>";
+		};
 		A8967E261674743403AB3C57 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				34ED342BAC33B699338FFD2E /* Pods-HLYunVillage.debug.xcconfig */,
 				D1E32813AA1DB34494CCEA4E /* Pods-HLYunVillage.release.xcconfig */,
+				70004D52F2FB428C8CC5C51A /* Pods-CommonSpecTarget-HLYunVillage.debug.xcconfig */,
+				5CFE7630AE23FC12CA2E5D95 /* Pods-CommonSpecTarget-HLYunVillage.release.xcconfig */,
+				7490708CB0CF47032FCFF0E9 /* Pods-CommonSpecTarget-HLYunVillageB.debug.xcconfig */,
+				63A654780849C0751BDE4145 /* Pods-CommonSpecTarget-HLYunVillageB.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -150,7 +206,8 @@
 		C40682166A8F153A5D032584 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3DB32A322CC6F9B0870B9449 /* Pods_HLYunVillage.framework */,
+				81D799BA85F375FE202D4513 /* Pods_CommonSpecTarget_HLYunVillage.framework */,
+				452D95039101D6EC6090CF12 /* Pods_CommonSpecTarget_HLYunVillageB.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -213,6 +270,25 @@
 			productReference = 5C78E03222D5BED800915C25 /* HLYunVillageUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		5C86D54F22E0577200BE5EAC /* HLYunVillageB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C86D55F22E0577300BE5EAC /* Build configuration list for PBXNativeTarget "HLYunVillageB" */;
+			buildPhases = (
+				6E58F844C712945DC050F32C /* [CP] Check Pods Manifest.lock */,
+				5C86D54C22E0577200BE5EAC /* Sources */,
+				5C86D54D22E0577200BE5EAC /* Frameworks */,
+				5C86D54E22E0577200BE5EAC /* Resources */,
+				5BA88ECABD93A4FB781AAF3E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLYunVillageB;
+			productName = HLYunVillageB;
+			productReference = 5C86D55022E0577200BE5EAC /* HLYunVillageB.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -234,6 +310,9 @@
 						CreatedOnToolsVersion = 10.1;
 						TestTargetID = 5C78E01222D5BED600915C25;
 					};
+					5C86D54F22E0577200BE5EAC = {
+						CreatedOnToolsVersion = 10.1;
+					};
 				};
 			};
 			buildConfigurationList = 5C78E00E22D5BED600915C25 /* Build configuration list for PBXProject "HLYunVillage" */;
@@ -252,6 +331,7 @@
 				5C78E01222D5BED600915C25 /* HLYunVillage */,
 				5C78E02622D5BED800915C25 /* HLYunVillageTests */,
 				5C78E03122D5BED800915C25 /* HLYunVillageUITests */,
+				5C86D54F22E0577200BE5EAC /* HLYunVillageB */,
 			);
 		};
 /* End PBXProject section */
@@ -264,6 +344,7 @@
 				5C78E02122D5BED800915C25 /* LaunchScreen.storyboard in Resources */,
 				5C78E01E22D5BED800915C25 /* Assets.xcassets in Resources */,
 				5C78E01C22D5BED600915C25 /* Main.storyboard in Resources */,
+				5C86D50522DFFFC400BE5EAC /* index.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,24 +362,73 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5C86D54E22E0577200BE5EAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C86D55D22E0577300BE5EAC /* LaunchScreen.storyboard in Resources */,
+				5C86D56322E059D500BE5EAC /* Assets.xcassets in Resources */,
+				5C86D55822E0577200BE5EAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5BA88ECABD93A4FB781AAF3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CommonSpecTarget-HLYunVillageB/Pods-CommonSpecTarget-HLYunVillageB-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CommonSpecTarget-HLYunVillageB/Pods-CommonSpecTarget-HLYunVillageB-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CommonSpecTarget-HLYunVillageB/Pods-CommonSpecTarget-HLYunVillageB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E58F844C712945DC050F32C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CommonSpecTarget-HLYunVillageB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		DCB9895B9DC5A299AA3B34A8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HLYunVillage/Pods-HLYunVillage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CommonSpecTarget-HLYunVillage/Pods-CommonSpecTarget-HLYunVillage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HLYunVillage/Pods-HLYunVillage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CommonSpecTarget-HLYunVillage/Pods-CommonSpecTarget-HLYunVillage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HLYunVillage/Pods-HLYunVillage-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CommonSpecTarget-HLYunVillage/Pods-CommonSpecTarget-HLYunVillage-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DD3DD0CEAE247E29D0C2A3E9 /* [CP] Check Pods Manifest.lock */ = {
@@ -316,7 +446,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HLYunVillage-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CommonSpecTarget-HLYunVillage-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -353,6 +483,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5C86D54C22E0577200BE5EAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C86D55522E0577200BE5EAC /* ViewController.swift in Sources */,
+				5C86D55322E0577200BE5EAC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -381,6 +520,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				5C78E02022D5BED800915C25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5C86D55622E0577200BE5EAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C86D55722E0577200BE5EAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C86D55B22E0577300BE5EAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C86D55C22E0577300BE5EAC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -506,7 +661,7 @@
 		};
 		5C78E03C22D5BED800915C25 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34ED342BAC33B699338FFD2E /* Pods-HLYunVillage.debug.xcconfig */;
+			baseConfigurationReference = 70004D52F2FB428C8CC5C51A /* Pods-CommonSpecTarget-HLYunVillage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,7 +681,7 @@
 		};
 		5C78E03D22D5BED800915C25 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1E32813AA1DB34494CCEA4E /* Pods-HLYunVillage.release.xcconfig */;
+			baseConfigurationReference = 5CFE7630AE23FC12CA2E5D95 /* Pods-CommonSpecTarget-HLYunVillage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -622,6 +777,42 @@
 			};
 			name = Release;
 		};
+		5C86D56022E0577300BE5EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7490708CB0CF47032FCFF0E9 /* Pods-CommonSpecTarget-HLYunVillageB.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLYunVillageB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HL.HLYunVillageB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C86D56122E0577300BE5EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63A654780849C0751BDE4145 /* Pods-CommonSpecTarget-HLYunVillageB.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLYunVillageB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HL.HLYunVillageB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -657,6 +848,15 @@
 			buildConfigurations = (
 				5C78E04222D5BED800915C25 /* Debug */,
 				5C78E04322D5BED800915C25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C86D55F22E0577300BE5EAC /* Build configuration list for PBXNativeTarget "HLYunVillageB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C86D56022E0577300BE5EAC /* Debug */,
+				5C86D56122E0577300BE5EAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
